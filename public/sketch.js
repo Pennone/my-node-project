@@ -1,7 +1,7 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(400, 400, WEBGL);
 
-  background("blue");
+  background("cyan");
 
 }
 
