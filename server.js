@@ -1,4 +1,4 @@
-console.log("Script loaded");
+console.log("script loaded");
 
 let express = require("express");
 
@@ -12,3 +12,12 @@ app.use(express.static("public"));
 
 console.log("running server on http://localhost:" + port);
 
+let serverSocket = require("socket.io");
+
+let io = serverSocket(server);
+
+io.on("connection", newConnection);
+
+function newConnection(newSocket) {
+  console.log(newSocket.id);
+}
