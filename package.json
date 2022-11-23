@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "my node project package",
+  "main": "server.js",
+  "scripts": {
+    "test": "console.log(\"all went fine\")",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pennone/my-node-project.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Pennone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pennone/my-node-project/issues"
+  },
+  "homepage": "https://github.com/Pennone/my-node-project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
